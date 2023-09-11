@@ -29,15 +29,19 @@ func main() {
 
 	*/
 
-	name := "Shourov"
-	var country string = "Bangladesh"
-	var age int = 27
-	var cgpa float32 = 2.54
+	// name := "Shourov"
+	// var country string = "Bangladesh"
+	// var age int = 27
+	// var cgpa float32 = 2.54
 
-	// printF format
-	fmt.Printf("%v is my name \n", name)
-	fmt.Printf(". My age is %v \n", age)
-	fmt.Printf(". %v is my country \n", country)
-	fmt.Printf(". My CGPA is %v \n", cgpa)
+	// // printF format
+	// fmt.Printf("%v is my name \n", name)
+	// fmt.Printf(". My age is %v \n", age)
+	// fmt.Printf(". %v is my country \n", country)
+	// fmt.Printf(". My CGPA is %v \n", cgpa)
+
+	for a := 0; a < 1000000; a++ {
+		fmt.Println(a)
+	}
 
 }
